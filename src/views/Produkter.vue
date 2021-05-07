@@ -128,7 +128,7 @@
       <v-btn
         color="#489CD3"
         text
-        
+        :href="product.button"
         > 
   Afspil Video
       </v-btn>
@@ -207,7 +207,7 @@
     <v-card-actions>
       <v-btn
         color="#489CD3"
-        href="https://www.youtube.com/watch?v=vGMfb6KnW-c"
+        href="https://youtu.be/vwItFc_h9G0"
         target="_blank"
         text 
         > 
@@ -327,7 +327,7 @@ export default {
           description: "Intro annonce",
         content_text:"En reklamefilm af hele virksomhedens udvalg af biler. Videoen blev brugt til at køre som annonce på facebook.",
         toggleInd: false,
-        urllink: require("../assets/emmerskebiler.mp4"),
+        button: "https://youtu.be/PdoNmZeefU8",
         imageLink: require("../assets/Emmerske biler logo (hvid).png")
         },
         {
@@ -335,7 +335,7 @@ export default {
           description: "Mercedes bil annonce",
            content_text:"En reklamefilm af en fin mercedes, der skulle bruges til bilbasen og på hjemmesiden for at fremvise bilens udstyr.",
           toggleInd: false,
-          urllink: "",
+          button: "https://youtu.be/g3p-mEeWBCg",
         imageLink: require("../assets/Mercedes.jpeg")
         }
       ],
