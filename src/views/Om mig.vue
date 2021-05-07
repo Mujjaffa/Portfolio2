@@ -51,7 +51,7 @@
   <div class="text-center my-10">
       <v-btn 
       outlined 
-      href="Mustafa_cv_færdig.pdf"
+      href="mustafa_cv.pdf"
       download>
           DOWNLOAD MIT CV lIGE HER
     </v-btn>

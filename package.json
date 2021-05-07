@@ -13,8 +13,7 @@
     "vue-pdf": "^4.2.0",
     "vue-router": "^3.2.0",
     "vue-videobg": "^2.0.0",
-    "vuetify": "^2.4.0",
-    "vuetify-media-player": "^0.8.1"
+    "vuetify": "^2.4.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
